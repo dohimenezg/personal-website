@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* Comentario totalmente incesario */
+
+body {
+    background-color: #fff;
+}
+
+#cabecera {
+    background-color: #DEB6AB;
+    height: 150px;
+    border-radius: .5em;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0.1em 0.2em 0.2em #77615b;
+}
+
+.navegacionPrin {
+    list-style: none;
+    background: #AC7D88;
+    padding: 0px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.navegacionPrin li a {
+    text-shadow: 0.1em 0.2em 0.2em #462e3a;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    display: block;
+    border-radius: .5em;
+    
+}
+
+.navegacionPrin li {
+    display: inline-block;
+    text-align: center;
+    background-color: #AC7D88;
+    color: black;
+}
+
+.navegacionPrin li a:hover {
+    background-color: #85586F;
+    color: #F8ECD1;
+    text-shadow: 0.1em 0.2em 0.2em #462e3a;
+}
+
+/* Esto se puede hacer cuando no se hace bien lo de arriba */
+li {
+    background-color: #fff;
+    text-decoration: none;
+    padding: 0px;
+}
+
+#contenido {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    min-height: 500px;
+}
+
+#contenidoPrin {
+    background-color: #fff;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 500px;
+    padding-top: 15px;
+    /* Se ve feisimo
+    border: 1px solid;
+    border-color: #85586F;
+    */
+}
+
+#imagen {
+    float: right;
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+#articulo {
+    border: 1px solid;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#piePrin {
+    background-color: #AC7D88;
+    clear: both;
+    max-width: 90%;
+    margin-top: 30px;
+    height: 180px;
+    border-radius: .5em;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    font: normal 20px arial;
+    text-shadow: 0.1em 0.2em 0.2em #77615b;
+    
+}
+
+h3 {
+    color: #000;
+    font: normal 22px arial;
+    font-weight: bold;
+}
+
+h4 {
+    font: normal 20px arial;
+}
