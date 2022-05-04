@@ -93,8 +93,8 @@ li {
     background-color: #AC7D88;
     clear: both;
     max-width: 90%;
-    margin-top: 30px;
-    height: 180px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-radius: .5em;
     margin: auto;
     text-align: center;
