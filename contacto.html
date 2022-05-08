@@ -7,7 +7,7 @@
 
     <title>Plantilla HTML</title>
     <link rel="stylesheet" href="styles/commons.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/pasatiempos.css">
 </head>
 
 <body>
@@ -29,32 +29,30 @@
 
     <section id="contenido">
         <section id="contenidoPrin">
-
-            <section id="imagen">
-                <figure>
-                    <img src="files/goat.jpg" width="100%" height="100%">
-                </figure>
+            
+            <section id="form-container">
+                <form id="formulario">
+                    
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" type="text" name="nombre"/>
+                    <br/>
+                    <br/>
+                    <label for="mail">Correo:</label>
+                    <input id="mail" type="email" name="mail"/>
+                    <br/>
+                    <br/>
+                    <label for="mensaje">Mensaje:</label>
+                    <input id="mensaje" type="text" name="mensaje"/>
+                    <br/>
+                    <br/>
+            
+                    <section id="enviar">
+                        <button type="button">Enviar</button>
+                    </section>
+                    
+                </form>
             </section>
 
-            <article id="articulo1">
-                
-                <header id="titulo">
-                    <h3>Sobre mi</h3>
-                </header>
-
-                <p>
-                    Soy David Jimenez Garzon, nacido en Popayan, Cauca en el año de 1999. Estudiante de ingenieria de
-                    sistemas de la Universidad del Cauca. Actualmente me ecuentro en septimo semestre de la carrera.
-                    <br>
-                    Actualmete estoy prendiendo a usar la linea de comandos.
-                    <br>
-                    Algo de Python y Java.
-                    <br>
-                    <br>
-                    (Me gustan las cabras)
-                </p>
-
-            </article>
         </section>
     </section>
 
