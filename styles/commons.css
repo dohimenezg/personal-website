@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS general */
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#cabecera {
+    background-color: #DEB6AB;
+    height: 150px;
+    border-radius: .5em;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0.1em 0.2em 0.2em #AC7D88;
+}
+
+.navegacionPrin {
+    list-style: none;
+    background: #AC7D88;
+    padding: 0px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.navegacionPrin li a {
+    text-shadow: 0.1em 0.2em 0.2em #462e3a;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    display: block;
+    border-radius: .5em;
+}
+
+.navegacionPrin li {
+    display: inline-block;
+    text-align: center;
+    background-color: #AC7D88;
+    color: black;
+    padding: 0px;
+}
+
+.navegacionPrin li a:hover {
+    background-color: #85586F;
+    color: #F8ECD1;
+    text-shadow: 0.1em 0.2em 0.2em #462e3a;
+}
+
+#contenido {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    min-height: 500px;
+}
+
+#contenidoPrin {
+    background-color: #fff;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 500px;
+    padding-top: 15px;
+}
+
+#piePrin {
+    background-color: #AC7D88;
+    clear: both;
+    max-width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: .5em;
+    margin: auto;
+    text-align: center;
+}
+
+#piePrin h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    text-shadow: 0.1em 0.2em 0.2em #77615b;
+}
+
+#cabecera h1 {
+    padding-top: 47px;
+    margin: auto;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#cabecera h2 {
+    margin: auto;
+    font-size: 18px;
+    font-weight: normal;
+}
